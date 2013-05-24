@@ -7,7 +7,7 @@ License:	BSD
 Group:		Libraries
 Source0:	http://hackage.haskell.org/packages/archive/%{pkgname}/%{version}/%{pkgname}-%{version}.tar.gz
 # Source0-md5:	9e904c4ade47b1eba17f47d682eb2ee9
-URL:		http://hackage.haskell.org/package/%{pkgname}
+URL:		http://hackage.haskell.org/package/IfElse
 BuildRequires:	ghc >= 6.12.3
 BuildRequires:	rpmbuild(macros) >= 1.608
 %requires_eq	ghc
