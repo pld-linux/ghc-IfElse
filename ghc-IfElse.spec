@@ -3,8 +3,8 @@ Summary:	Anaphoric and misc control-flow
 Name:		ghc-%{pkgname}
 Version:	0.85
 Release:	1
-Group:		Libraries
 License:	BSD
+Group:		Libraries
 Source0:	http://hackage.haskell.org/packages/archive/%{pkgname}/%{version}/%{pkgname}-%{version}.tar.gz
 # Source0-md5:	9e904c4ade47b1eba17f47d682eb2ee9
 URL:		http://hackage.haskell.org/package/%{pkgname}
@@ -57,6 +57,7 @@ runhaskell Setup.hs register \
 	--gen-pkg-config=$RPM_BUILD_ROOT/%{_libdir}/%{ghcdir}/package.conf.d/%{pkgname}.conf
 
 %{__rm} -r $RPM_BUILD_ROOT/%{_docdir}/%{name}-%{version}
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
